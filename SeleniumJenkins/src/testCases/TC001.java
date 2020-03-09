@@ -14,7 +14,7 @@ public class TC001 {
 		driver.get("https://www.facebook.com");
 		driver.findElement(By.name("email")).sendKeys("priyar");
 		driver.findElement(By.name("pass")).sendKeys("password");
-		driver.quit();
+		//driver.quit();
 
 	}
 
